@@ -3,8 +3,8 @@
   <info>
     <name>Moonstone Veil Sources</name>
     <description>A collection of mystical references tied to the Moonstone Veil and the Ethereal Plane.</description>
-    <author url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</author>
-    <update version="1.1.2">
+    <author url="https://github.com/EmilyMonestone">Emily P</author>
+    <update version="1.2.0">
       <file 
         name="source.xml" 
         url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/source.xml" />
@@ -24,7 +24,7 @@
     <setters>
       <set name="abbreviation">MVC</set>
       <set name="url">https://github.com/EmilyMonestone/moonstone_veil_compendium</set>
-      <set name="author" url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</set>
+      <set name="author" url="https://github.com/EmilyMonestone">Emily P</set>
       <set name="homebrew">true</set>
     </setters>
   </element>

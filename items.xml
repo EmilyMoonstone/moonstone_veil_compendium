@@ -3,7 +3,7 @@
   <info>
     <name>Moonstone Veil Items</name>
     <description>Magical artifacts and spell foci crafted from the power of the moonstone and the currents of the Ethereal Plane.</description>
-    <author url="https://github.com/EmilyMonestone">Emily P &amp; Alexander P</author>
+    <author url="https://github.com/EmilyMonestone">Emily P</author>
     <update version="1.1.4">
       <file
         name="items.xml"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <name>Moonstone Veil Spells</name>
+        <description>Magical artifacts and spell foci crafted from the power of the moonstone and the currents of the Ethereal Plane.</description>
+        <author url="https://github.com/EmilyMonestone">Emily P</author>
+        <update version="1.0.0">
+        <file
+            name="spells.xml"
+            url="https://raw.githubusercontent.com/EmilyMonestone/moonstone_veil_compendium/main/spells.xml" />
+        </update>
+    </info>
+	<element name="Fire Shield" type="Spell"   source="Moonstone Veil Compendium" id="ID_MVC_SPELL_FIRE_SHIELD">
+		<supports>Wizard, Sorcerer, Druid</supports>
+		<description>
+			<p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.</p>
+			<p class="indent">The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.</p>
+			<p class="indent">In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire,cold</set>
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">10 minutes</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a bit of phosphorous or a firefly</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+    <element name="Revivify" type="Spell"   source="Moonstone Veil Compendium" id="ID_MVC_SPELL_REVIVIFY">
+		<supports>Wizard, Sorcerer, Cleric, Paladin, Artificer, Druid</supports>
+		<description>
+			<p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">3</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">diamonds worth 300 gp, which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
